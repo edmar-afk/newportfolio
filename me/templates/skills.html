@@ -1,0 +1,192 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>JayForCode</title>
+        <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/bg.css' %}">
+		<link rel="stylesheet" href="{% static 'css/cards.css' %}">
+    <link rel="stylesheet" href="{% static 'css/svgbg.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/base.css' %}" />
+	</head>
+
+	<body class="bg">
+    <div class="colors">
+      <div class="purple"></div>
+      <div class="medium-blue"></div>
+      <div class="light-blue"></div>
+      <div class="red"></div>
+      <div class="orange"></div>
+      <div class="yellow"></div>
+      <div class="cyan"></div>
+      <div class="light-green"></div>
+      <div class="lime"></div>
+      <div class="magenta"></div>
+      <div class="lightish-red"></div>
+      <div class="pink"></div>
+    </div>
+		{% include 'includes/header.html' %}
+    
+		<h1 class="font-bold text-center text-[25px] mt-12 text-primary ">
+      My Skills
+    </h1>
+    <p class="p-12 lg:mr-12 lg:ml-12 text-center text-white text-[20px]">
+      “When I stand before God at the end of my life, I would hope that I <br/>
+      would not have a single bit of talent left, and could say, 'I used
+      everything you gave me." - 
+      <span class="text-primary ">Erma Bombeck</span>
+    </p>
+    <div class="flex flex-col sm:flex-row p-3 lg:p-12 justify-around flex-wrap items-center">
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/python.png' %}" class="w-[60px] h-[60px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">Python</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            I only have 1 month of learning in Python, long enough to know the
+            basic syntax and OOP. My main goal in life was to study machine
+            learning and robotics but it stopped because of financial problems
+            so I'm studying Django instead.
+          </p>
+        </div>
+      </div>
+
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/django.png' %}" class="w-[60px] h-[60px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">Django</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+            
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            Learning Django is easy for me since I have a small background in Python and other 
+            programming languages that helped me in this path. With barely a month of studying Django, 
+            I'll be able to applied it in my solo Capstone Project.
+          </p>
+        </div>
+      </div>
+
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/react.png' %}" class="w-[70px] h-[70px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">React</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+           
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            I LOVE REACT. That's why I'm going to learn it, right now I'm studying react to 
+            develop more of my front-end skills. Having html, css, and javaScript knowledge already, 
+            I'm learning react easily.
+          </p>
+        </div>
+      </div>
+
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/mysql.png' %}" class="w-[70px] h-[60px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">MySQL</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            I have basic knowledge on mySQL. I studied mySQL to bring more functionality to 
+            my boring plain text websites that I created.
+          </p>
+        </div>
+      </div>
+
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/javascript.png' %}" class="w-[50px] h-[50px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">javaScript</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+           
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            I only have decent amount of time exploring javaScript, long enough to
+            know the basic syntax and how it use, DOM manipulation, OOP and have basic 
+            knowledge on modern ES6.
+          </p>
+        </div>
+      </div>
+
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/flutter.png' %}" class="w-[40px] h-[40px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">Flutter</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+            
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            I only only study flutter because of school projects, I'd say it's 
+            only a week of studying I able to make basic widgets designs.
+          </p>
+        </div>
+      </div>
+
+      <div class="card rounded-xl mb-5 ">
+        <div class="flex p-3 items-center">
+          <img src="{% static 'images/php.png' %}" class="w-[60px] h-[60px]" alt="" />
+          <div class="flex flex-col">
+            <h1 class="text-primary font-bold text-2xl ml-5">PHP</h1>
+            <span class="ml-5 flex flex-row mt-2">
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+             <i class="fa fa-star text-white"></i>
+            </span>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-[16px] text-white">
+            I'm studying PHP alongside with MySQL to learn more about back-end and how it works. 
+            I have basic basic knowledge in making dynamic website using in PHP by helping my 
+            fellow classmates to their capstone project.
+          </p>
+        </div>
+      </div>
+    </div>
+		{% include 'includes/nav.html' %}
+	</body>
+</html>

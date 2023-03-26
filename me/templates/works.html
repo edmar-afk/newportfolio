@@ -1,0 +1,131 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>JayForCode</title>
+        <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/bg.css' %}">
+		<link rel="stylesheet" href="{% static 'css/emojis.css' %}">
+		<link rel="stylesheet" href="{% static 'css.modal.css' %}">
+		<link rel="stylesheet" href="{% static 'css/svgbg.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/base.css' %}" />
+	</head>
+
+	<body class="bg">
+		<div class="colors">
+			<div class="purple"></div>
+			<div class="medium-blue"></div>
+			<div class="light-blue"></div>
+			<div class="red"></div>
+			<div class="orange"></div>
+			<div class="yellow"></div>
+			<div class="cyan"></div>
+			<div class="light-green"></div>
+			<div class="lime"></div>
+			<div class="magenta"></div>
+			<div class="lightish-red"></div>
+			<div class="pink"></div>
+		  </div>
+		{% include 'includes/header.html' %}
+		
+		<div class="flex flex-col md:flex-row justify-evenly items-center flex-wrap p-2 sm:p-12">
+			<div class="flex flex-col w-[300px] lg:w-[350px]">
+				<img src="{% static 'images/myWorks/python/capstone.png' %}" alt="">
+				<div class="bg-white h-48 p-3" >
+					<h1 class="font-bold">Capstone Project.</h1>
+					<p>My solo Capstone Project</p>
+
+					<p class="text-black mt-7"> Demo Link: <a href="https://isumbongguipos.pythonanywhere.com/homepage" class="text-primary font-bold" target="_blank">Click Here</a> </p>
+				</div>
+				<div class="bg-primary h-14 flex flex-row items-center justify-evenly mb-12">
+					<img src="{% static 'images/python.png' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/mySQL.png' %}" class="w-[50px] h-[50px] ml-2" alt="">
+					<img src="{% static 'images/django.png' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/html.jpg' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/css.jpg' %}" class="w-[30px] h-[35px] ml-2" alt="">
+					<img src="{% static 'images/bootstrap.png' %}" class="w-[30px] h-[35px] ml-2" alt="">
+				</div>
+			</div>
+
+			
+			<div class="flex flex-col w-[300px] lg:w-[350px]">
+				<img src="{% static 'images/myWorks/PHP-SQL/schoolProjects/Capture.png' %}" alt="">
+				<div class="bg-white h-48 p-3" >
+					<h1 class="font-bold">Text to ASCII</h1>
+					<p>Basic PHP school Project</p>
+
+					<p class="text-primary mt-7"> Demo Link: <span class="text-black">Sorry I can't provide Demo link</span> </p>
+				</div>
+				<div class="bg-primary h-14 flex flex-row items-center justify-evenly mb-12">
+					<img src="{% static 'images/PHP.png' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/html.jpg' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/css.jpg' %}" class="w-[30px] h-[35px] ml-2" alt="">
+				</div>
+			</div>
+
+
+			<div class="flex flex-col w-[300px] lg:w-[350px]">
+				<img src="{% static 'images/myWorks/PHP-SQL/schoolProjects/Capture1.png' %}" alt="">
+				<div class="bg-white h-48 p-3" >
+					<h1 class="font-bold">Decimal to Hexadecimal</h1>
+					<p>Basic PHP school Project</p>
+
+					<p class="text-primary mt-7"> Demo Link: <span class="text-black">Sorry I can't provide Demo link</span> </p>
+				</div>
+				<div class="bg-primary h-14 flex flex-row items-center justify-evenly mb-12">
+					<img src="{% static 'images/PHP.png' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/html.jpg' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/css.jpg' %}" class="w-[30px] h-[35px] ml-2" alt="">
+				</div>
+			</div>
+
+
+			<div class="flex flex-col w-[300px] lg:w-[350px]">
+				<img src="{% static 'images/myWorks/PHP-SQL/schoolProjects/Capture2.png' %}" alt="">
+				<div class="bg-white h-48 p-3" >
+					<h1 class="font-bold">Decimal to Hexadecimal</h1>
+					<p>Basic PHP school Project</p>
+
+					<p class="text-primary mt-7"> Demo Link: <span class="text-black">Sorry I can't provide Demo link</span> </p>
+				</div>
+				<div class="bg-primary h-14 flex flex-row items-center justify-evenly mb-12">
+					<img src="{% static 'images/PHP.png' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/html.jpg' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/css.jpg' %}" class="w-[30px] h-[35px] ml-2" alt="">
+				</div>
+			</div>
+
+
+			<div class="flex flex-col w-[300px] lg:w-[350px]">
+				<img src="{% static 'images/myWorks/PHP-SQL/schoolProjects/Capture3.png' %}" alt="">
+				<div class="bg-white h-48 p-3" >
+					<h1 class="font-bold">Calculator</h1>
+					<p>Basic PHP school Project</p>
+
+					<p class="text-primary mt-7"> Demo Link: <span class="text-black">Sorry I can't provide Demo link</span> </p>
+				</div>
+				<div class="bg-primary h-14 flex flex-row items-center justify-evenly mb-12">	
+					<img src="{% static 'images/PHP.png' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/html.jpg' %}" class="w-[40px] h-[40px] ml-2" alt="">
+					<img src="{% static 'images/css.jpg' %}" class="w-[30px] h-[35px] ml-2" alt="">
+				</div>
+			</div>
+
+
+			
+			</div>
+		</div>
+
+		{% include 'includes/nav.html' %}
+
+
+		  </script>
+
+		  <script src="{% static 'js/script.js' %}"></script>
+	</body>
+</html>
